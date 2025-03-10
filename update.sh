@@ -7,8 +7,3 @@ paccache -rk1
 paccache -ruk0
 
 sudo DIFFPROG=colordiff pacdiff
-
-if [ -x /usr/bin/flatpak ]; then
-    flatpak update -y
-    flatpak remove --delete-data --unused -y
-fi
