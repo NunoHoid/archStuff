@@ -2,7 +2,7 @@ std="bash-completion git gnu-netcat man-db nano ntfs-3g tlp unrar"
 upd="pacman-contrib reflector"
 fnt="noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-martian-mono-nerd"
 gpu="lib32-mesa lib32-vulkan-radeon mesa vulkan-radeon"
-kde="ark dolphin gwenview haruna konsole ktorrent okular plasma-meta"
+kde="ark dolphin gwenview haruna konsole ktorrent kwalletmanager okular partitionmanager plasma-meta"
 app="firefox libreoffice-fresh steam zed"
 dev="clang go gopls pyright ruff zig zls"
 
