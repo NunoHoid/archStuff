@@ -3,7 +3,7 @@ sudo reflector --sort score --save /etc/pacman.d/mirrorlist --protocol https --c
 sudo pacman -Syyu
 sudo pacman -Rns $(pacman -Qdtq)
 
-paccache -rk1
-paccache -ruk0
+sudo paccache -rk1
+sudo paccache -ruk0
 
 sudo DIFFPROG="git diff" pacdiff
